@@ -1,0 +1,64 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background: rgb(21, 21, 21);
+    margin: 0;
+}
+/* NavBar --------------------------------------------------------------------------------*/
+.Navbar{
+    height: 100px;
+    width: 90%;
+    position: fixed;
+    margin-left: 5%; margin-right: 5%;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding:auto;
+
+    background: rgb(174, 50, 50);
+}
+.NavbarLogo{
+    position: relative;
+    left: 15px;
+    display: flex;
+    align-items: center;
+}
+.NavbarLogo h1{
+   font-size: 35px;
+    display: flex;
+
+}
+.SearchBar{
+    position: relative;
+    left: 150px;
+    display: flex;
+    align-items: center;
+}
+.SearchBar input[type=text]{
+    
+    height: 35px;
+    width: 300px;
+}
+
+/* Aside --------------------------------------------------------------------------------*/
+aside{
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    background: rgb(174, 50, 50);
+}
+
+/* Sections -------------------------------------------------------------------------------- */
+section{
+    height: 100vh;
+
+}
