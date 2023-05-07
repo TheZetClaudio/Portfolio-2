@@ -4,35 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Section1.css">
+    <link rel="stylesheet" href="/Aside.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Portfolio 2.0</title>
 
 </head>
 <body>
     <!--Navbar ------------------------------------------  -->
     <nav class="Navbar">
-        <div class="NavbarLogo"><h1>Logo</h1></div>
-        <div class="SearchBar"><input type="text" placeholder="Search.."></div>
+        <div class="NavbarLogo"><h1>Pieńkowski Portfolio</h1></div>
+        <form class="SearchBar" action="/index.html"><input type="text" placeholder="Search.."> <div class="SerchButton"><input type="submit" value="Search"></div></form>
         <div class="NavbarButton">
             <div class="AllButtons">
-                <button><a href="">GitHub</a></button>
-                <button><a href="">Portfolio</a></button>
+               <a href="https://www.youtube.com"><input type="button" value="GitHub" href=""></a>
+                <a href=""><input type="button" value="Portfolio" ></a>
             </div>
         </div>
     </nav>
     <!--Aside ------------------------------------------ -->
     <aside>
-        <li></li>
-        <li></li>
-        <li></li>
+        <div class="AsideLink"><li><a href=""> Hello</a></li><p></p></div>
+        <div class="AsideLink"><li><a href="#AboutMe">About Me</a></li><p>A little self introduction</p></div>
+        <div class="AsideLink"><li><a href="">My Projects</a></li><p>My Projects Posted on GitHub</p></div>
+        <div class="AsideLink"><li><a href="">App</a></li><p>Smal App that I made</p></div>
     </aside>
     <!--Section 1 ------------------------------------------ -->
-    <section>
-
+    <section class="Hello" id="Hello">
+        <h1>Hello!</h1>
+        <br>
+        <div class="Section1-calls">
+            <div class="dot1"><b><</b></div>
+        <div class="FirstCall" id="FirstCall">
+            <h2>I'm Klaudiusz Pieńkowski</h2>
+            <h2>But You can call me Claudio as well</h2>
+            <h2>and Welcome to my Portfolio</h2>
+        </div>
+        <div class="SecondCallAfter" id="SecondCall">
+            <h2>it's a Simple Site where i'm showing my skills</h2>
+            <h2>Fill Fre to Leave a Comment if You like it</h2>
+            <h2>only if i already made that work</h2>
+        </div>
+        <div class="dot2"><b>></b></div>
+    </div>
     </section>
     <!--Section 2 ------------------------------------------ -->
-    <section>
+    <section class="AboutMe" id="AboutMe">
         
     </section>
+     <!--Section 3 ------------------------------------------ -->
+    <section class="MyProjects" id="MyProjects">
+        
+    </section>
+    <script src="/Section1.js"></script>
 </body>
 </html>

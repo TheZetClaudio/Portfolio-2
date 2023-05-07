@@ -1,0 +1,86 @@
+/* NavBar --------------------------------------------------------------------------------*/
+.Navbar{
+    height: 50px;
+    width: 90%;
+    position: fixed;
+    margin-left: 5%; margin-right: 5%; margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding:auto;
+    border-bottom: 2px solid;
+    border-color: antiquewhite;
+
+    background: rgb(21, 21, 21);
+}
+.NavbarLogo{
+    position: relative;
+    left: 15px;
+    display: flex;
+    align-items: center;
+}
+.NavbarLogo h1{
+   font-size: 35px;
+    display: flex;
+    color: antiquewhite;
+}
+.SearchBar{
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+.SearchBar input[type=text]{
+    height: 35px;
+    width: 350px;
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    border: 1px solid;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: antiquewhite;
+}
+.SerchButton input[type=submit]{
+    height: 35px;
+    width: auto;
+    border: 1px solid;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.NavbarButton{
+    position: relative;
+    right: 15px;
+    display: flex; 
+}
+.AllButtons{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    gap: 15px;
+}
+.AllButtons input[type=button]{
+    width: 90px;
+    height: 33px;
+    color: antiquewhite;
+    background: rgb(51, 50, 50);
+    border: 2px solid;
+    border-color: antiquewhite ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.AllButtons input[type=button]:hover{
+    scale: 1.13;
+    transition: 450ms;
+    border-color: rgb(21, 21, 21) rgb(21, 21, 21) #fff;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0px;
+    cursor: pointer;
+    transition: 1s;
+}

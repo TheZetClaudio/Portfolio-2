@@ -1,0 +1,29 @@
+
+/* Aside --------------------------------------------------------------------------------*/
+aside{
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 8px;
+    color: antiquewhite;
+    background: rgb(21, 21, 21);
+    gap: 15px;
+}
+.AsideLink{
+    display: flex;
+    flex-direction: column;
+    
+}
+.AsideLink a{
+    color: antiquewhite;
+}
+.AsideLink p{
+    font-size: 0.8rem;
+    color: #fff;
+}

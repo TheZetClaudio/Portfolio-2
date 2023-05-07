@@ -1,0 +1,65 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background: rgb(21, 21, 21);
+    margin: 0;
+}
+
+/* Sections -------------------------------------------------------------------------------- */
+
+section{
+    height: 110vh;
+
+}
+.Hello{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    gap: 30px;
+}
+.Hello h1{
+    font-size: 2.5rem;
+}
+.dot1{
+    position: relative;
+    top: 75px;
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.dot2{
+    position: relative;
+    top: 75px;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.Hello .Section1-calls{
+    display: flex;
+    flex-direction: row;
+}
+.FirstCall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.1rem;
+    transition: 1.5s;
+}
+.FirstCallAfter{
+    display: none;
+}
+.SecondCallAfter{
+    display: none;
+}
