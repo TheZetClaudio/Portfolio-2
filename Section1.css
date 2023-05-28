@@ -8,6 +8,7 @@ body{
     margin: 0;
 }
 
+
 /* Sections -------------------------------------------------------------------------------- */
 
 section{
@@ -62,4 +63,13 @@ section{
 }
 .SecondCallAfter{
     display: none;
+}
+.SecondCall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.1rem;
+    transition: 1.5s;
 }
