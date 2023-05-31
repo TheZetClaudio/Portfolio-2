@@ -1,14 +1,14 @@
 
 /* Aside --------------------------------------------------------------------------------*/
 
- aside{
-        position: fixed;
-        height: 100%;
-        width: 380px;
-        top: 0;
-        left: 0;
-        padding: 10px 16px;
-        background-color: rgb(41,41,41);
+aside{
+    position: fixed;
+     height: 100%;
+    width: 380px;
+    top: 0;
+    left: 0;
+    padding: 10px 16px;
+    background-color: rgb(41,41,41);
 }
 aside header{
     position: relative;
@@ -38,18 +38,9 @@ aside .Text-icon .Text{
 aside .Text-icon .Text .Name{
     font-weight: 600;
 }
-.AsideLink{
-    display: flex;
-    flex-direction: column;
-    
-}
-.AsideLink a{
-    color: antiquewhite;
-}
-.AsideLink p{
-    font-size: 0.8rem;
-    color: #fff;
-}
+
+/* ---Menu--- */
+
 aside header .toggle{
     position: absolute;
     display: flex;
@@ -68,13 +59,58 @@ aside header .toggle{
 }
 aside .Menu-bar li{
     height: 50px;
-    background: red;
-    margin-top: 10px;
+    background: rgb(55, 55, 55);
+    margin-top: 15px;
     border-radius: 20px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    padding: 10px;
+    transition: 1s;
 }
 aside .Menu-bar li .icon{
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    min-width: 60px;
+}
+aside .Menu-bar li .Menu-text, aside .Menu-bar li .Menu-text{
+    color: aliceblue;
+}
+aside .Menu-bar li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+aside .Menu li:hover {
+    background: rgb(71, 71, 71);
+}
+aside li:hover {
+    background: rgb(71, 71, 71);
+}
+.Search-box input{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: rgb(220, 220, 220);
+    transition: 1s;
+}
+.Search-box input:hover{
+    background: rgb(255, 255, 255);
+} 
+aside .Menu-bar p{
+    position: relative;
+    width: 290px;
+    border-radius: 6px;
+    top: -10px;
+    left: 20px;
+    color: antiquewhite;
+    padding: 5px;
+    background: rgb(55, 55, 55);
 }
