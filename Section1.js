@@ -20,3 +20,4 @@ const changeSecondSlide = () => {
     
 };
 dot1.addEventListener('click', changeSecondSlide);
+
